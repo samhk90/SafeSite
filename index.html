@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<head>
+<title>SAFE SITE</title>
+</head>
+<body style="background-color:powderblue;margin: 0,0,10px;">
+<div valign="top" style='background-color:	#2a2af8;width:100%;height:80px'><h1 align='center'>SAFE SITE </h></div>
+<img src="images.jpg" alt="loading image" align="left" style="height:200px;;">
+<img src="s2.jpg" alt="loading image" align="right" style="height:200px;;">
+<div align="left"style='background-color:#ADD8E6;width:200%;height:200px'>
+<h1>Result:</h1>
+<script type="text/javascript">
+var x=prompt("enter your choice [01]Known Website [02]Unknown Website ","1");
+if(x==1)
+{
+ var s=prompt("[01] Google [02] FaceBook [03] Instagram [04] Snapcha [05] Telegram [06] Linkdin",);
+  if(s==1){
+    var l1=prompt("Enter your url :");
+    if(l1=="https://accounts.google.com/signin/v2/identifier?service=accountsettings&continue=https%3A%2F%2Fmyaccount.google.com%2F%3Futm_source%3Dsign_in_no_continue%26pli%3D1&ec=GAlAwAE&flowName=GlifWebSignIn&flowEntry=AddSession")
+    {document.write("<h1>The given site is safe👍.</h1>" );}
+    else{document.write("<h1>The given site is not safe☠️.</h1>");
+    document.write("<h2><a href='https://www.reportphishing.in/'>Report This Phishing Attack</a></h2>");
+  }  
+  }
+  else if (s==2){
+    var l2=prompt("Enter your url :");
+    if (l2=="https://m.facebook.com/login/?refsrc=deprecated")
+    {document.write("<h1>The given site is safe👍.</h1>");}
+    else{document.write("<h1>The given site is not safe☠️.</h1>");
+    document.write("<h2><a href='https://www.reportphishing.in/'>Report This Phishing Attack</a></h2>");}
+  }else if (s==3){
+    var l3=prompt("Enter your url :");
+    if(l3=="https://www.instagram.com/accounts/login/"){document.write("<h1>The given site is safe👍.</h1>");}
+    else{document.write("<h1The given site is not safe☠️.</h1>");
+    document.write("<h2><a href='https://www.reportphishing.in/'>Report This Phishing Attack</a></h2>");}
+  }
+  else if (s==4){
+    var l4=prompt("Enter your url :");
+    if(l4=="https://accounts.snapchat.com/accounts/login?client_id=geo"){document.write("<h1>The given site is safe👍.</h1>");}
+    else{document.write("<h1>The given site is not safe☠️.</h1>");
+    document.write("<h2><a href='https://www.reportphishing.in/'>Report This Phishing Attack</a></h2>");}
+  }else if (s==5){
+    var l5=prompt("Enter your url:");
+    if (l5=="https://web.telegram.org/z/"){document.write("<h1>The given site is safe👍.</h1>");}
+    else{document.write("<h1>The given site is not safe☠️.</h1>");
+    document.write("<h2><a href='https://www.reportphishing.in/'>Report This Phishing Attack</a></h2>");}
+  }else if (s==6){
+    var l6=prompt("Enter your url:")
+    if(l6=="https://www.linkedin.com/login?fromSignIn=true&trk=guest_homepage-basic_nav-header-signin"){document.write("<h1>The given site is safe👍.</h1>");}
+    else{document.write("<h1>The given site is not safe☠️.</h1>");
+    document.write("<h2><a href='https://www.reportphishing.in/'>Report This Phishing Attack</a></h2>");}
+  }
+}else if (x==2) {
+  var a = prompt("Enter your protocoal:");
+      if (a=="https")
+      {
+        document.write("<h1>The given site is safe👍</h1>.");
+      }else{
+      document.write("<h1>The given site is note safe☠️</h1>.");
+      
+  }
+  
+}
+else{
+  document.write("Invalid option")
+}
+</script>
+</div>
+<h2>Some Orignal Web-Sites Links are as Fllow</h2>
+<h3><a href="https://accounts.google.com/signin/v2/identifier?service=accountsettings&continue=https%3A%2F%2Fmyaccount.google.com%2F%3Futm_source%3Dsign_in_no_continue%26pli%3D1&ec=GAlAwAE&flowName=GlifWebSignIn&flowEntry=AddSession"target="_blank">GOOGLE</a></h3>
+<h3><a href="https://m.facebook.com/login/?refsrc=deprecated"target="_blank">FACEBOOK</a></h3>
+<h3><a href="https://www.instagram.com/accounts/login/"target="_blank">INSTAGRAM</a></h3>
+<h3><a href="https://accounts.snapchat.com/accounts/login?client_id=geo">SNAPCHAT</a></h3>
+<h3><a href="https://web.telegram.org/z//h3>"target="_blank">TELEGRAM</a></h3>
+<h3><a href="https://www.linkedin.com/login?fromSignIn=true&trk=guest_homepage-basic_nav-header-signin"target="_blank">LINKEDIN</a></h3></br>
+<h2><a href='https://www.reportphishing.in/' target="_blank">Report Any Phishing Attack/link</a></h2>
+</body>
